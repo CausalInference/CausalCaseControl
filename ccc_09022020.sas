@@ -19,6 +19,8 @@ data contained in checked_data will be the first m trials that would be used in 
 When checking the data for new cases, the original data needs to also be fixed to contain any new cases. This will affect trials after the checked trial at time = m. The data listed
 in checked data will have the new cases added into trial m and the control removed. This data will be used for adding in the additional trials to preserve those selected in the initial 
 selection of controls at trial m. Each additional call to the macro should only add in additional controls on top of those initially selected.
+Authors: Roger Logan, Miguel Hernan, Barbra Dickerman, Goodarz Danaei
+Written by Roger Logan. rwlogan@hsph.harvard.edu
 
 ******/
 /* for first run we will assume that data has been check for all possible cases */
